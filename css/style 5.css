@@ -1,0 +1,500 @@
+/*header starts*/
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body {
+    background-attachment: fixed;
+}
+header .link a {
+    padding: 0 12px;
+    text-decoration: none;
+    color:#969691;
+}
+header .text-right a{
+    color: #969691;
+}
+
+header{
+    overflow: hidden;
+}
+header .link{
+    background-color: whitesmoke;
+    border-top: 4px solid #ff7579;
+    overflow: hidden;
+    border-radius:0;
+}
+header .link span{
+    margin-right:12px;
+}
+header .link a{
+    padding:0 5px;
+    text-decoration: none;
+}
+
+header .link .fa{
+    margin-right: 10px;
+}
+
+header .link1{
+    padding: 10px 0;
+    float: left;
+}
+header .link2{
+    padding: 10px 0;
+    float: right;
+    margin-right: -16px;
+
+}
+header .link2 img{
+    position: relative;
+    top: -1px;
+    padding-right: 12px;
+}
+header .navbar{
+    background-color: transparent;
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+header .text-right{
+    padding: 20px 0;
+}
+
+header .navbar-nav li{
+    padding: 10px 20px 0;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: -30px;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#868680;
+}
+
+header .navbar-default .navbar-nav > li > a:hover{
+    color:darkblue;
+}
+header .link a:hover{
+    color: blueviolet;
+}
+header .navbar1{
+    padding-bottom: 10px;
+}
+
+
+
+/*breadcrumbs starts here*/
+
+
+
+#breadcrumbs .breadcrumb{
+    background-color:#ff7579;
+    margin-bottom: 0;
+    padding: 15px 0;
+}
+#breadcrumbs{
+    background-color:#ff7579;
+}
+#breadcrumbs .breadcrumb a{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+
+/*conatct us start here*/
+
+
+#contactUs{
+    margin-top: 50px;
+}
+#contactUs .text h1{
+    border-left: 4px solid  #ff7579;
+    padding-left: 10px;
+   font-family:Oswald;
+}
+#contactUs .text p{
+    font-family: Oswald;
+    font-size:16px;
+    color:#7d7e7e;
+}
+
+
+/*map starts here*/
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+/*comment starts here*/
+
+#comment .input-group{
+    padding: 15px 0;
+}
+#comment .part1-a .input-group .form-control{
+    height:60px;
+}
+#comment .part1-b{
+    margin-top: 75px;
+}
+#comment .part1-b .input-group-addon{
+    padding:20px 0;
+    border-radius: 5%;
+}
+#comment .part1-a h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: oswald;
+}
+#comment .part1 .input-group-addon{
+    color:#ff7579;
+}
+#comment .part1{
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 40px;
+}
+#comment .part1-a{
+    margin-left: 0;
+    padding-left: 0;
+}
+#comment .part1-b .btn{
+    color:#ffffff ;
+    background-color: rgba(0, 0, 0, 0.65);
+    margin-top: 30px;
+}
+#comment .part1-b .form-control{
+    height: 90px;
+}
+#comment .part1-b span{
+    font-size:20px;
+}
+#comment .part2{
+    margin-top: 40px;
+}
+#comment .part2 .fa{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ff7579;
+    color: #ffffff;
+    font-size: 25px;
+}
+#comment .part2 p{
+    text-align: right;
+    font-size: 15px;
+    color:#7d7e7e;
+
+}
+#comment .part2 .textOne{
+ position:relative;
+    bottom: 50px;
+    right: 40px;
+    margin: 0;
+    padding:0;
+}
+#comment .part2 h3{
+    font-size:30px;
+    text-transform: uppercase;
+    font-family: oswald;
+    padding-bottom: 10px;
+}
+#comment .part2 div{
+    margin: 0;
+    padding: 0;
+    height: 80px;
+}
+
+
+
+/*sign up strats here*/
+
+
+#signUp {
+    overflow: hidden;
+    clear: both;
+    background-color:#e5e6e5;
+    margin-top: 80px;
+}
+#signUp .form-group input{
+    width: 365px;
+    height: 46px;
+    margin-right:-20px;
+    border: 2px solid #ffffff;
+    color:#727b7c
+}
+#signUp .btn{
+    margin-right:-10px;
+    width: 100px;
+    height: 46px;
+    background-color: #575a59;
+    color: #ffffff;
+}
+#signUp h2{
+    text-transform: uppercase;
+    margin-left:-5px;
+    padding: 0;
+    font-size: 25px;
+    margin-top:10px;
+}
+#signUp .container {
+    margin-top: 20px;
+}
+#signUp .form-control{
+    background-color:#e5e6e5;
+}
+
+
+
+/*socialside starts here*/
+
+
+#socialSide {
+    overflow: hidden;
+    clear: both;
+    padding-top: 80px;
+    padding-bottom: 160px;
+    background-color: #eeefee;
+}
+#socialSide .myAccount ul{
+    padding-left: 15px;
+    line-height: 40px;
+}
+#socialSide .myAccount1 ul{
+    padding-left: 15px;
+    line-height: 40px;
+}
+
+
+
+/*socialside1 strats here*/
+
+
+#socialSide1 footer {
+    padding: 20px;
+    background-color: white;
+}
+
+
+#socialSide1 footer #socialIcon{
+    float:left;
+    width:40%;
+}
+
+#socialSide1 footer p{
+    margin:0;
+    float:right;
+    color: #747474;
+    font-size:12px;
+    font-weight:normal;
+    padding-top:10px;
+
+}
+#socialSide1 footer #socialIcon > span{
+    margin-right:12px;
+}
+
+#socialSide1 footer #socialIcon > span > a > i{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid;
+    background-color: #c6c6c6;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#socialSide1 footer #socialIcon > span > a > i:hover{
+    color:#ff7579;
+}
+#socialSide1 .space {
+    background-color:#dcdcdc;
+    padding: 35px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #signUp .form-group input {
+        width: 338px;
+        height: 46px;
+        margin-right: -20px;
+        border: 2px solid #ffffff;
+        color: #727b7c;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+}
+
+
+@media (min-width: 600px) and (max-width: 768px ) {
+    #signUp .form-group{
+        display: inline-block;
+    }
+    #signUp .btn {
+        margin-right:220px;
+        width: 100px;
+        height: 46px;
+        background-color: #575a59;
+        color: #ffffff;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 350px ){
+
+    #signUp .form-group input {
+        width: 283px;
+        height: 46px;
+        margin-right: -20px;
+        border: 2px solid #ffffff;
+        color: #727b7c;
+    }
+}
